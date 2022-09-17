@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FourTeam</title>
+    <!-- my css style -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <a class="low-sat" href="index.html">back</a>
+      <h1 class="small-heading"><span class="domino">Domino</span>Counter</h1>
+      <a href="fourTeams.html" class="low-sat">reset</a>
+    </div>
+    <div class="container four-team-container">
+      <div class="team-section team-a">
+        <p class="result-label" id="team-a-label">team A</p>
+        <p class="result" id="team-a-score">0</p>
+        <button class="cal-button" onclick="addByFive('a',5)">O</button>
+        <button class="cal-button" onclick="addByFive('a',10)">/</button>
+        <button class="cal-button" onclick="addByFive('a',20)">X</button>
+        <input class="cutom-input" type="text" id="team-a-custom" />
+        <button class="cal-button" onclick="addToTeam('a')">+</button>
+        <button class="cal-button" onclick="subFromTeam('a')">-</button>
+      </div>
+      <div class="team-section team-b">
+        <p class="result-label" id="team-b-label">team B</p>
+        <p class="result" id="team-b-score">0</p>
+        <button class="cal-button" onclick="addByFive('b',5)">O</button>
+        <button class="cal-button" onclick="addByFive('b',10)">/</button>
+        <button class="cal-button" onclick="addByFive('b',20)">X</button>
+        <input class="cutom-input" type="text" id="team-b-custom" />
+        <button class="cal-button" onclick="addToTeam('b')">+</button>
+        <button class="cal-button" onclick="subFromTeam('b')">-</button>
+      </div>
+      <div class="team-section team-c">
+        <p class="result-label" id="team-c-label">team C</p>
+        <p class="result" id="team-c-score">0</p>
+        <button class="cal-button" onclick="addByFive('c',5)">O</button>
+        <button class="cal-button" onclick="addByFive('c',10)">/</button>
+        <button class="cal-button" onclick="addByFive('c',20)">X</button>
+        <input class="cutom-input" type="text" id="team-c-custom" />
+        <button class="cal-button" onclick="addToTeam('c')">+</button>
+        <button class="cal-button" onclick="subFromTeam('c')">-</button>
+      </div>
+      <div class="team-section team-d">
+        <p class="result-label" id="team-d-label">team D</p>
+        <p class="result" id="team-d-score">0</p>
+        <button class="cal-button" onclick="addByFive('d',5)">O</button>
+        <button class="cal-button" onclick="addByFive('d',10)">/</button>
+        <button class="cal-button" onclick="addByFive('d',20)">X</button>
+        <input class="cutom-input" type="text" id="team-d-custom" />
+        <button class="cal-button" onclick="addToTeam('d')">+</button>
+        <button class="cal-button" onclick="subFromTeam('d')">-</button>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+body {
+  --my-white: #ececeb;
+  background-color: #2e383f;
+  color: var(--my-white);
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+span {
+  font-weight: 700;
+}
+
+/* heading */
+h1 {
+  font-family: "Pacifico", cursive;
+}
+.domino {
+  color: #f9a828;
+}
+.big-heading {
+  margin-top: 14rem;
+  font-size: 8rem;
+}
+.small-heading {
+  font-size: 4.5rem;
+  margin: 20px 0px 10px;
+}
+
+/* p element */
+p {
+  font-size: 3rem;
+  margin-top: 15rem;
+}
+
+/* links */
+a {
+  display: block;
+  text-decoration: none;
+}
+a.home {
+  margin: 20px auto;
+  font-size: 4rem;
+  color: var(--my-white);
+  padding: 13px;
+}
+a:active {
+  background-color: transparent;
+}
+
+/* buttons */
+.home {
+  border: 3px var(--my-white) solid;
+  border-radius: 30px;
+  width: 70%;
+}
+
+/* coloreful buttons */
+.blue-button {
+  background-color: #07617d;
+}
+.yellow-button {
+  background-color: #f9a828;
+}
+.green-button {
+  background-color: #3b6d64;
+}
+
+/* multiplayer header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0px;
+  position: fixed;
+  top: 0px;
+  background-color: inherit;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 20px;
+}
+
+/* head buttons */
+.low-sat {
+  color: #b7b7b7;
+  padding: 1rem 2rem;
+  font-size: 4rem;
+  border-radius: 2rem;
+}
+.low-sat:active {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+/* body */
+.container {
+  margin: auto;
+  margin-top: 13rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+.three-team-container {
+  display: flex;
+  justify-content: space-around;
+}
+.four-team-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 50px;
+}
+.team-section {
+}
+
+/* result */
+.result-label {
+  color: #ececeb;
+  margin: 0px;
+  margin-top: 30px;
+  font-size: 5rem;
+}
+.result {
+  background: #39444b;
+  margin: 10px auto 15px;
+  width: fit-content;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  font-size: 7rem;
+}
+
+/* buttons */
+.cal-button {
+  display: block;
+  margin: 2rem auto 6px;
+  padding: 2rem 0;
+  font-size: 6rem;
+  width: 300px;
+  border: 2px #ececeb solid;
+  border-radius: 40px;
+  color: #ececeb;
+}
+
+/* three teams calculate buttons */
+.three-team-container .cal-button {
+  width: 70%;
+}
+
+.team-a .cal-button {
+  background-color: #07617d;
+}
+.team-b .cal-button {
+  background-color: #3b6d64;
+}
+.team-c .cal-button {
+  background-color: #f9a828;
+}
+.team-d .cal-button {
+  background-color: #cc3c3c;
+}
+.cal-button:active {
+  background-color: transparent;
+}
+
+/* customization */
+.cutom-input {
+  font-size: 6rem;
+  width: 60%;
+  border-radius: 40px;
+  border: solid #ececeb 10px;
+  background-color: #b7b7b7;
+  margin: 20px 0px 10px;
+  padding: 1rem;
+}
